@@ -1,0 +1,23 @@
+.intro__container {
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    margin-left: 148px;
+}
+@media screen and (max-width: 1279px) {
+    .intro__container {
+    margin-left: 48px;
+    margin-right: 286px;
+    }  
+}
+@media screen and (max-width: 1023px) {
+
+    .intro__container {
+        margin-left: 24px;
+        margin-right: 24px;
+    }
+}
+@media screen and (max-width: 767px) {
+    .intro__container {
+        margin-left: 16px;
+        margin-right: 16px;
+    }
+}

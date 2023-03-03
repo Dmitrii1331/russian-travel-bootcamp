@@ -1,0 +1,15 @@
+.header__links {
+  margin-right: 48px;
+  color: #FFFFFF;
+} 
+@media screen and (min-width: 768px) and (max-width: 1023px) {
+  .header__links {
+    margin-right: 24px;
+  }
+}  
+@media screen and (max-width: 767px) {
+  .header__links {
+    margin-right: 16px;
+    margin-bottom: 8px;
+  }
+}

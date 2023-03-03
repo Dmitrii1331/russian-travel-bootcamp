@@ -1,0 +1,18 @@
+.place__link {
+    color: white;
+    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
+    font-style: normal;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 22px;
+    margin-top: 12px;
+    margin-bottom: 48px; 
+}  
+.place__link:hover {
+  opacity: .8;
+} 
+@media screen and (max-width: 767px) {
+  .place__link {
+    margin-bottom: 32px;
+  }
+}
