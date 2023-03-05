@@ -19,7 +19,7 @@
     margin: 0 auto;
   }
 }
-@media screen and (max-width: 340px) {
+@media screen and (min-width: 340px) {
   .place__title {
     margin-top: auto;
     margin-left: 16px;
