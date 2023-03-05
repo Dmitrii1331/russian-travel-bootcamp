@@ -1,7 +1,5 @@
 .place__paragraph {
-    display: inline;
     margin: 0;
-    font-family: 'Inter', 'Helvetica Neue', Arial, sans-serif;
     font-style: normal;
     font-weight: 400;
     font-size: 18px;
@@ -24,8 +22,6 @@
   
   @media screen and (max-width: 767px) {
     .place__paragraph {
-      font-size: 16px;
-      line-height: 26px;
       margin-left: 16px;
       margin-right: 16px;
     }

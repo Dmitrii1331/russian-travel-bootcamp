@@ -1,18 +1,9 @@
 .place__website {
-    display: flex;
-    flex-direction: column;
-    justify-content: flex-end;
-    grid-column-start: 2;
-    grid-column-end: 3;
-    grid-row-start: 1;
-    grid-row-end: 2;
+  align-self: end;
+  margin-bottom: 48px;
 }
 @media screen and (max-width: 767px) {
   .place__website {
-    grid-column-start: 1;
-    grid-column-end: 2;
-    grid-row-start: 2;
-    grid-row-end: 3;
     margin: 0 auto;
   }
 }
