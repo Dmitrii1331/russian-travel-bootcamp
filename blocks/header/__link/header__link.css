@@ -9,9 +9,6 @@
   padding-left: 18px;
   text-decoration: none;
 }
-.header__link:first-child {
-  padding-left: 0;
-}
 .header__link:hover {
   opacity: .8;
 }
