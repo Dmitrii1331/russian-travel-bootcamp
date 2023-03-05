@@ -1,6 +1,6 @@
 .place__website {
   align-self: end;
-  margin-bottom: 48px;
+  text-align: left;
 }
 @media screen and (max-width: 767px) {
   .place__website {
@@ -9,7 +9,6 @@
 }
 @media screen and (max-width: 766px) {
   .place__website {
-    margin-left: 16px;
     margin-top: 32px;
   }
 }
