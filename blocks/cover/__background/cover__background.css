@@ -7,7 +7,9 @@
   text-decoration: none;
   background-size: cover;
   min-width: 100%;
-  margin: 0 48px;
+  min-height: 46.25rem;
+  align-items: center;
+  justify-content: center;
 }
 
 .cover__background::after {
@@ -24,13 +26,6 @@
 
 .cover__background:hover::after {
   opacity: .8;
-}
-
-
-@media screen and (max-width: 1279px) {
-  .cover__background {
-    margin: 0;
-  }
 }
 
 @media screen and (max-width: 767px) {
