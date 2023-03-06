@@ -10,6 +10,7 @@
   min-height: 46.25rem;
   align-items: center;
   justify-content: center;
+  background-position: center;
 }
 
 .cover__background::after {
